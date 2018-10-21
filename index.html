@@ -30,14 +30,13 @@
             <button class="nav__link" onclick="location.href = '/books';">Books</button>
           </li>
           <li class="nav__item">
-            <button class="nav__link" onclick="location.href = '/books';">Websites</button>
+            <button class="nav__link" onclick="location.href = '/websites';">Websites</button>
           </li>
           <li class="nav__item">
             <button class="nav__link" onclick="location.href = '/people';">People</button>
           </li>
-          <li class="nav__item">
-            <button class="nav__link" onclick="location.href = '/books';">Articles</button>
-          </li>
+          <!--li.nav__itembutton.nav__link(onclick="location.href = '/books';") Articles
+          -->
           <li class="nav__item">
             <button class="nav__link nav__link--alt" onclick="location.href = 'https://ryan1476.typeform.com/to/a0hkSl';">+ Submit a resource</button>
           </li>
@@ -54,10 +53,12 @@
           <li class="mobile-nav__item"><a class="mobile-nav__link" href="../index">Home</a></li>
           <li class="mobile-nav__item"><a class="mobile-nav__link" href="/tools">Tools</a></li>
           <li class="mobile-nav__item"><a class="mobile-nav__link" href="/books">Books</a></li>
-          <li class="mobile-nav__item"><a class="mobile-nav__link" href="/books">Websites</a></li>
+          <li class="mobile-nav__item"><a class="mobile-nav__link" href="/websites">Websites</a></li>
           <li class="mobile-nav__item"><a class="mobile-nav__link" href="/people">People</a></li>
-          <li class="mobile-nav__item"><a class="mobile-nav__link" href="/books">Articles</a></li>
-          <li class="mobile-nav__item"><a class="mobile-nav__link" href="/books">About</a></li>
+          <!--li.mobile-nav__itema.mobile-nav__link(href="/books") Articles
+          -->
+          <!--li.mobile-nav__itema.mobile-nav__link(href="/books") About
+          -->
         </ul>
       </nav>
     </div><div class="content">
@@ -65,7 +66,11 @@
     <div class="row">
       <div class="col col__12">
         <h1>Curated UX Resources</h1>
-        <h2 class="lead u-t--gray-500">A collection of <a href="/tools">tools</a>, <a href="/books">books</a>, <a href="/books">webites</a>, <a href="/people">people</a>, and <a href="/books">articles</a></h2>
+        <h2 class="lead u-t--gray-500">A collection of <a href="/tools">tools</a>, <a href="/books">books</a>, <a href="/websites">websites</a>, 
+          and <a href="/people">people</a>
+          <!--| , and -->
+          <!--a(href="/books") articles-->
+        </h2>
       </div>
     </div>
     <div class="row">
@@ -136,30 +141,30 @@
       <div class="col col__12">
         <h3 class="u-t--primary">Websites</h3>
         <ul class="list">
-          <li class="list__item"><a class="list__link card" href="http://color.hotglue.me/color_pdf.head.139811657448&download=1" target="_blank">
-              <div class="card__body"><img class="card__img" src="/static/img/books/100things.png" width="100%"/>
-                <div class="card__title">100 Things Every Designer should know about humans</div>
+          <li class="list__item"><a class="list__link card" href="https://uxplanet.org/" target="_blank">
+              <div class="card__body"><img class="card__img" src="/static/img/websites/uxplanet.png" width="100%"/>
+                <div class="card__title">UXPlanet</div>
               </div>
               <div class="card__footer">
-                <div class="card__text">by Susan Weinschenk</div>
+                <div class="card__text">October 20 2018</div>
               </div></a></li>
-          <li class="list__item"><a class="list__link card" href="https://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672326140" target="_blank">
-              <div class="card__body"><img class="card__img" src="/static/img/books/inmates.png" width="100%"/>
-                <div class="card__title">The Inmates are Running the Asylum</div>
+          <li class="list__item"><a class="list__link card" href="http://ui-patterns.com/" target="_blank">
+              <div class="card__body"><img class="card__img" src="/static/img/websites/uipatterns.png" width="100%"/>
+                <div class="card__title">UI-Patterns</div>
               </div>
               <div class="card__footer">
-                <div class="card__text">by Alan Cooper</div>
+                <div class="card__text">October 20 2018</div>
               </div></a></li>
-          <li class="list__item"><a class="list__link card" href="https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367" target="_blank">
-              <div class="card__body"><img class="card__img" src="/static/img/books/emotionaldesign.png" width="100%"/>
-                <div class="card__title">Emotional Design</div>
+          <li class="list__item"><a class="list__link card" href="https://www.smashingmagazine.com/" target="_blank">
+              <div class="card__body"><img class="card__img" src="/static/img/websites/smashingmag.png" width="100%"/>
+                <div class="card__title">Smashing Magazine</div>
               </div>
               <div class="card__footer">
-                <div class="card__text">by Don Norman</div>
+                <div class="card__text">October 20 2018</div>
               </div></a></li>
           <li class="list__item"><a class="list__link card card--cta" href="/books">
               <div class="card__body"><img class="card__img" src="/static/img/websites.svg" width="100%"/>
-                <div class="card__title">Latest UX Books</div>
+                <div class="card__title">Latest UX Websites</div>
               </div>
               <div class="card__footer">
                 <div class="card__text">View the whole list</div>
@@ -202,41 +207,44 @@
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="col col__12">
-        <h3 class="u-t--primary">Articles</h3>
-        <ul class="list">
-          <li class="list__item"><a class="list__link card" href="http://color.hotglue.me/color_pdf.head.139811657448&download=1" target="_blank">
-              <div class="card__body"><img class="card__img" src="/static/img/books/100things.png" width="100%"/>
-                <div class="card__title">100 Things Every Designer should know about humans</div>
-              </div>
-              <div class="card__footer">
-                <div class="card__text">by Susan Weinschenk</div>
-              </div></a></li>
-          <li class="list__item"><a class="list__link card" href="https://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672326140" target="_blank">
-              <div class="card__body"><img class="card__img" src="/static/img/books/inmates.png" width="100%"/>
-                <div class="card__title">The Inmates are Running the Asylum</div>
-              </div>
-              <div class="card__footer">
-                <div class="card__text">by Alan Cooper</div>
-              </div></a></li>
-          <li class="list__item"><a class="list__link card" href="https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367" target="_blank">
-              <div class="card__body"><img class="card__img" src="/static/img/books/emotionaldesign.png" width="100%"/>
-                <div class="card__title">Emotional Design</div>
-              </div>
-              <div class="card__footer">
-                <div class="card__text">by Don Norman</div>
-              </div></a></li>
-          <li class="list__item"><a class="list__link card card--cta" href="/books">
-              <div class="card__body"><img class="card__img" src="/static/img/articles.svg" width="100%"/>
-                <div class="card__title">Latest UX Articles</div>
-              </div>
-              <div class="card__footer">
-                <div class="card__text">View the whole list</div>
-              </div></a></li>
-        </ul>
-      </div>
-    </div>
+    <!--.row
+    .col.col__12
+      h3.u-t--primary Articles
+      ul.list
+        | 
+        |
+        li.list__item
+          a.list__link.card(href="http://color.hotglue.me/color_pdf.head.139811657448&download=1" target="_blank")
+            .card__body
+              img.card__img(src="/static/img/books/100things.png" width="100%")
+              .card__title 100 Things Every Designer should know about humans
+            .card__footer
+              .card__text by Susan Weinschenk
+        |
+        li.list__item
+          a.list__link.card(href="https://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672326140" target="_blank")
+            .card__body
+              img.card__img(src="/static/img/books/inmates.png" width="100%")
+              .card__title The Inmates are Running the Asylum
+            .card__footer
+              .card__text by Alan Cooper
+        |
+        li.list__item
+          a.list__link.card(href="https://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051367" target="_blank")
+            .card__body
+              img.card__img(src="/static/img/books/emotionaldesign.png" width="100%")
+              .card__title Emotional Design
+            .card__footer
+              .card__text by Don Norman
+        |
+        li.list__item
+          a.list__link.card.card--cta(href="/books")
+            .card__body
+              img.card__img(src="/static/img/articles.svg" width="100%") 
+              .card__title Latest UX Articles
+            .card__footer
+              .card__text View the whole list
+    -->
   </div>
 </div>
     <footer class="content u-bg--black footer u-t--white">
